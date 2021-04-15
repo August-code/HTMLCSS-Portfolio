@@ -1,0 +1,106 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 280px;
+    background-color: rgb(160, 150, 150);
+}
+
+#wrapper {
+    padding: 35px 0 35px 75px;
+    background-color: #2A4D69;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+#header-img {
+    height: 200px;
+    width: 190px;
+    border-radius: 100px;
+}
+
+h1 p {
+    position: absolute;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+ul ol {
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: 550;
+}
+
+.headerlinks {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+.headerlinks ol a {
+    color: rgb(255, 255, 255);
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px;
+}
+
+@media only screen and (max-width: 1300px) {
+    h1 p {
+        position: relative;
+        padding-bottom: 1px;
+    }
+
+    .headerlinks {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    body {
+        padding: 10px 180px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        padding: 0;
+    }
+
+    h1 p {
+        padding-top: 70px;
+    }
+    
+}
